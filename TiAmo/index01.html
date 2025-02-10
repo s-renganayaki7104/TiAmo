@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TiAmo | Cafe</title>
+	<link rel="icon" type="image/x-icon" href="logo.jpeg">
+	<link rel="stylesheet" href="style.css">
+    <style>
+* {
+  .image-wrap{display:flex;
+  flex-wrap:wrap;
+  max-width:800px;
+  margin:0 auto;}
+  .img{width:93px;
+      height:138px;
+  margin-right:10px;
+margin-bottom: 30px;}
+  .text{
+      flex:1;
+      padding:10px;}
+      figcaption{font-size:0.82m;}
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body { background: #eee; }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 10px;
+  /* Restrict */
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.gallery img {
+
+  width: 100%;
+  height: 180px; /* optional */
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  object-fit: cover;
+}
+.gallery img:hover {
+  z-index: 9;
+  transform: scale(1.3);
+  transition: transform ease 0.5s;
+}
+    </style>
+</head>
+<body>
+	<header>
+        <img src="logo.jpeg" alt="logo" style="height:64px; width:64px; margin-bottom: 10px;">
+        <h1>TiAmo | Cafe<br>The Perfect Cup, Every Time</h1>
+        <nav>
+            <ul>
+                <li><a href="index01.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact us</a>
+                  <li><a href="login.html">Login</a>
+                    <li><a href="register.html">Register</a></li>
+                <li><form class="search-form">
+                  <input type="text" id="search-input" name="search" placeholder="Search products...">
+                  <button type="submit">Search</button>
+                </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+  <div class="subheading">
+    <h1 style="background-color:rgb(105, 29, 29); color:cornsilk;text-align:center;height:30px;font-weight:bold; font-style:italic;">Indulge in Delicious Treats and Refreshing Brews at TiAmo</h1>
+  </div>
+<div class="container">
+  <img src="background.jpeg" alt="Background Image" class="background" >
+  <div class="content">
+    <div class="cover">
+        <img src="header2.gif" alt="cover image" >
+        <div class="text-overlay">
+            <h1>Welcome to my Cafe</h1><br>
+            <p>Where coffee meets comfort
+            <br>Because life is too short for bad coffee</p>
+        </div>
+    </div>
+    </div>
+</div>
+<hr class="white-spc-div">
+<h1 style="color:black; size:22px; height:25px;text-align: center; background-color:#DED0B6;">Glance of us</h1><br><br>
+      <div class="col-main">
+        <pre style="text-align: center; color:rgb(105, 29, 29);font-weight:bold; font-size:24px; font-family:sans-serif;">"Making the world a better place, one cup and conversation at a time." 
+          - Howard Schultz</pre>
+<section><br>
+        <p> At TiAmo, we believe that life is best enjoyed over a cup of freshly brewed coffee with 
+            our pastries are baked fresh daily, infused with love and a dash of nostalgia. Our passion lies in
+             creating a warm and inviting space where friends become family,
+             and conversations flow freely.</p><br><br>
+        <h1 style="color:black; size:22px; height:25px;text-align: center; background-color:#DED0B6;">Popular items of the Cafe  </h1><br><br>
+             <div class="gal">
+              <h2><center>MATCHA ICED TEA </center></h2>
+              <figure class="image-wrap" >
+                <img class=img src="data:image/jpeg;base64,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" alt="Image 1">
+                <figcaption class="text">Matcha iced tea is a refreshing and flavorful drink made from finely ground green tea powder. 
+                  It is a popular choice for those who enjoy the taste of green tea but want a cold and refreshing beverage.
+                   Matcha iced tea can be made with or without milk, and it can be sweetened with honey, sugar, or another sweetener of your choice</figcaption>
+              </figure>
+              <h2><center>HONEY CINNAMON LATTE </center></h2>
+              <figure class="image-wrap">
+                <img class=img src="data:image/jpeg;base64,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" alt="Image 2">
+                <figcaption class="text">A honey cinnamon latte is a warm and comforting drink made with espresso, steamed milk, honey, and cinnamon.
+                   It's a delicious and easy way to enjoy the flavors of cinnamon and honey, and it can be made at home or at your favorite coffee shop. </figcaption>
+              </figure>
+              <h2><center>CINNAMON RAISINS BUNS </center></h2>
+              <figure class="image-wrap">
+                <img class=img src="https://th.bing.com/th/id/OIP.5gZTI6yBJOsoB80fYmQcLwHaKQ?w=186&h=320&c=7&r=0&o=5&pid=1.7" alt="Image 4">
+                <figcaption class="text">Cinnamon raisin rolls are a classic breakfast or brunch treat that is loved by many. They are made with a soft and fluffy dough that is rolled out and filled with a mixture of cinnamon sugar and raisins. The rolls are then baked until golden brown and gooey.</figcaption>
+              </figure>
+              <h2><center>STRAWBERY CHEESECAKE</center></h2>
+              <figure class="image-wrap">
+                  <img class="img" src="stshrt.jpeg" alt="Image 3">
+                  <figcaption class="text">Strawberry cheesecake is a delightful dessert that combines a creamy, rich cheese filling with a sweet and tart strawberry topping.</figcaption>
+                </figure>
+                <h2><center>EGGPLANT LASAGNA </center></h2>
+                <figure class="image-wrap">
+                  <img class=img src="https://th.bing.com/th/id/OIP.SmqYZ68VqWNP7Eicboru4wAAAA?w=186&h=341&c=7&r=0&o=5&pid=1.7" alt="Image 5">
+                  <figcaption class="text">Eggplant lasagna offers a delicious vegetarian alternative to the classic meat lasagna,</figcaption>
+                </figure>
+            </div>
+            <hr class="white-spc-div">
+        <h1 style="height:25px;color:black; size:22px; text-align: center; background-color:#DED0B6;">Youtube Reference </h1><br><br>
+        <div class="video" style="align-items: center; left:50%;">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/Z7e8tmcSrxg" title="Barista Show" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+      </div>
+    </div>
+  </div>
+  <h1 style="color:black; height:25px;size:22px; text-align: center; background-color:#DED0B6;">Image Gallery</h1><br><br>
+  <div class="gallery">
+    
+    <img src="https://i.pinimg.com/564x/39/66/58/3966589e102b2d3df1198c9c4e60aa09.jpg" title="TITLE 1">
+    <img src="https://i.pinimg.com/236x/00/2f/ad/002fad0f07f20969ab2f5a8576f94d27.jpg" title="TITLE 2">
+    <img src="https://i.pinimg.com/236x/1b/ed/14/1bed140b49a6927e17eda89950c55ac1.jpg" title="TITLE 3">
+    <img src="https://i.pinimg.com/236x/73/a7/1e/73a71e5095d3f0c7b0754f210c9abb04.jpg" title="TITLE 4">
+    <img src="https://i.pinimg.com/236x/8a/c1/52/8ac1521e4b016cc06601c4481e16b39e.jpg" title="TITLE 1">
+    <img src="https://i.pinimg.com/236x/33/ab/aa/33abaa3b3d917f00ddb2a2894e151238.jpg" title="TITLE 2">
+    <img src="https://i.pinimg.com/236x/f6/7e/3e/f67e3e24047252ae812b641bb322ee40.jpg" title="TITLE 3">
+    <img src="https://i.pinimg.com/236x/ca/4d/47/ca4d477a363b899656b588a56dfeeef8.jpg" title="TITLE 4">
+      </div>
+  <footer>
+    <p>&copy; 2024 TiAmo.</p>
+    <ul>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </footer>
+  
+</body>
+</html>
+
+
+

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cafe Menu</title>
+  <style>
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      margin: 0 auto;
+      width: 80%;
+    }
+
+    .menu-item {
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 5px;
+      flex-wrap:wrap;
+    }
+    .menu img{
+        width:180px;
+        align-items:center;
+    }
+    .menu-item h3 {
+      margin-bottom: 5px;
+      text-align: center;
+    }
+
+    .menu-item p {
+      margin-top: 0;
+    }
+    .heading h1{background-color: #a94438;height:250px;text-align: center;
+        color:#f0f0f0;line-height: 150px;
+    font-family:TT Moons;size:16px;}
+    h2{color:black; size:28px; text-align: center; background-color:#DED0B6;}
+  </style>
+</head>
+<body style="background-color: #f2ecbe; size:16px;">
+    <header>
+        <img src="logo.jpeg" alt="logo" style="height:64px; width:64px; margin-bottom: 10px;">
+        <h1>TiAmo | Cafe<br>The Perfect Cup, Every Time</h1>
+        <nav>
+            <ul>
+                <li><a href="index01.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact us</a>
+                  <li><a href="login.html">Contact us</a>
+                    <li><a href="register.html">Contact us</a></li>
+                <li><form class="search-form">
+                  <input type="text" id="search-input" name="search" placeholder="Search products...">
+                  <button type="submit">Search</button>
+                </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="heading">
+        <h1>Our Delicious Menu</h1>
+    </div>
+    <h2>COFFEES</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Espresso</h3>
+        <img src="https://th.bing.com/th/id/OIP.NZGzV2GOHNqBXmBPXiH6YwHaE8?w=266&h=180&c=7&r=0&o=5&pid=1.7" alt="espresso">
+        <p>Rs. 200</p>
+        <p>Espresso has a bold flavor and a thick, creamy crema on top.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cappuccino</h3>
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTHDHrpTc_w3B81QfcyxQ025aAKdlEsaKZaJ8Dxg-gYTvTRoAse7yb1FJ7bdWpB" alt="Cappuccino">
+        <p>Rs. 250</p>
+        <p>Cappuccino is made with espresso, steamed milk, and milk foam. It has a lighter flavor than espresso and a frothy texture.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Latte</h3>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRuoJrvb0UmxXcBUr99EnIR9LhTsftkwG6EDf_EODBaYL7baqvxAVgP6SybVDjE" alt="latte">
+        <p>Rs. 250</p>
+        <p>Latte is made with espresso and steamed milk. It has a milder flavor than espresso and a smooth texture.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Americano</h3>
+        <img src="https://th.bing.com/th/id/OIP.QIl8lwSkAEyQ9W2LvHZN0QHaE8?w=258&h=180&c=7&r=0&o=5&pid=1.7" alt="americano">
+        <p>Rs. 200</p>
+        <p>Americano is made by adding hot water to espresso. It has a similar flavor to drip coffee but is still stronger</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cafe Mocha</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDUkaWhS2LlsZI97-epOCWnRDPRxMlpV8oMN3QjKi1pIbdovG1XBXseD_ZMi4V" alt="mocha">
+        <p>Rs. 300</p>
+        <p>Cafe Mocha made with espresso, steamed milk, and chocolate syrup or powder topped with whipped cream and a drizzle of chocolate syrup or cocoa powder. </p>
+      </div>
+      </div>
+<br>
+    <h2>TEAS</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Black Tea</h3>
+        <img src="blck.jpeg" alt="earl">
+        <p>Rs. 100</p>
+        <p>Black tea has a strong, bold flavor and can be enjoyed hot or iced that can be enjoyed on its own or with milk and sugar</p>
+      </div>
+      <div class="menu-item">
+        <h3>Earl Grey</h3>
+        <img src="earl.jpeg" alt="earl">
+        <p>Rs. 100</p>
+        <p> A black tea flavored with bergamot oil, which gives it a citrusy aroma and flavor. </p>
+      </div>
+      <div class="menu-item">
+        <h3>Assam</h3>
+        <img src="assm.jpeg" alt="earl">
+        <p>Rs. 100</p>
+        <p>A strong, malty black tea from India. </p>
+      </div>
+      <div class="menu-item">
+        <h3>Green Tea</h3>
+        <img src="grn.jpeg" alt="earl">
+        <p>Rs. 100</p>
+        <p> Green tea is a type of tea made from unoxidized leaves of the Camellia sinensis plant. It has a grassy flavor and is known for its health benefits, including boosting metabolism and improving brain function.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Fruity Iced Tea</h3>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQccu9NYQxh4yGqaEl1liKNDwViciBw6w7NwuoUkHH3-7EcY1d5nC7EDej9R6RQ" alt="earl">
+        <p>Rs. 200</p>
+        <p>Fruity iced tea is a refreshing beverage made by steeping tea leaves or fruit pieces in hot water and then chilling it. It can be made with a variety of fruits, such as berries, citrus fruits, or tropical fruits.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Matcha Iced Tea</h3>
+        <img src="mat.jpeg" alt="mat">
+        <p>Matcha iced tea is a refreshing and flavorful drink made from finely ground green tea powder.
+          It is a popular choice for those who enjoy the taste of green tea but want a cold and refreshing beverage.
+          Matcha iced tea can be made with or without milk, and it can be sweetened with honey, sugar, or another sweetener of your choice</p>
+      </div>
+      <div class="menu-item">
+        <h3>Ginger Tea</h3>
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRUfFH-xxMjFLF6Z__mLDs2wwk7tc6gAHilJl3kBKXDpuKabYJZkcL85j4smG1V" alt="ging">
+        <p>Rs. 100</p>
+        <p> Ginger tea is an herbal tea made from ginger root, hot water, and sometimes other ingredients like honey or lemon. It has a spicy, warming flavor and is known for its health benefits, including aiding digestion and reducing nausea.</p>
+      </div>
+    </div>
+<br> 
+    <h2>SANDWICHES</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Grilled Cheese Sandwich</h3>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQeatl6y0eMACfgYSocukl_ycxzDpWty8npffPIEWwvAa91nDbF9SZg0GNMNraP" alt="earl">
+        <p>Rs. 200</p>
+        <p>A classic and comforting dish, the grilled cheese sandwich is made with two slices of bread filled with cheese and grilled until golden brown and melty. </p>
+      </div>
+      <div class="menu-item">
+        <h3>Falafel Sandwich</h3>
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS8wKmvhlCAq2H3XGnfUqeOFyQguBVTtETPDvL18eFieYitKMKf_ZGGPYNDVBWp" alt="earl">
+        <p>Rs. 250</p>
+        <p>A vegetarian delight, the falafel sandwich features falafel patties, typically made from chickpeas or fava beans, herbs, and spices served in a pita bread with hummus, tahini, and fresh vegetables for a flavorful and protein-packed meal</p>
+      </div>
+      <div class="menu-item">
+        <h3>Hamburger</h3>
+        <img src="https://th.bing.com/th/id/OIP.6iNfKf4-kCDpdbRQixph7QHaF3?w=212&h=180&c=7&r=0&o=5&pid=1.7" alt="earl">
+        <p>Rs. 200</p>
+        <p>A hamburger consists of a ground meat patty (usually beef) nestled between two halves of a bun. It's often customizable with various toppings like cheese, lettuce, tomato, onion, pickles, ketchup, mustard, and mayonnaise, allowing for individual preferences.</p>
+      </div>
+    </div>
+<br> 
+    <h2>PASTRIES</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Strawberry Cheesecake</h3>
+        <img src="stshrt.jpeg" alt="earl">
+        <p>Rs. 150</p>
+        <p>Strawberry cheesecake is a delightful dessert that combines a creamy, rich cheese filling with a sweet and tart strawberry topping. </p>
+      </div>
+      <div class="menu-item">
+        <h3>Croissants</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx3rFcqn8erE537W0C_8cQ7dRNdXzWwpKI-oAkWkirPfL-1zktfZyfQT2XnCzL" alt="earl">
+        <p>Rs.100</p>
+        <p>A buttery, flaky pastry from France that is crescent-shaped.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Tiramisu</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwYkezYOtKpsoM-uqOGc6sQKuR91aaE9ChYlclucNaJ7KwzFp8T7175i7City3" alt="earl">
+        <p>Rs. 150</p>
+        <p>Tiramisu is an Italian dessert made of ladyfingers dipped in coffee, layered with a whipped mixture of eggs, sugar and mascarpone and flavoured with cocoa.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Blueberry Macaroon Cookies</h3>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSiqNEsnYlsm6_WgbSak3MXV9WCKNqUdVT64Am58bwa26BUttvxEFketLtGYrUJ" alt="earl">
+        <p>Rs. 150</p>
+        <p>A small, round cookie made with almond flour, egg whites, and sugar. It is often flavored with vanilla or other extracts and filled with a variety of jams, jellies, or creams.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Apple pie</h3>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTC637F8hs07UlBYzTwi7XcMss6ibQdMpvl9hefr5d37VwGpsEyHD7TW99k8WWJ" alt="earl">
+        <p>Rs. 100</p>
+        <p>Apple pie is a classic dessert that is enjoyed all over the world. It is a delicious and versatile dish that can be enjoyed warm or cold, with or without ice cream or whipped cream. </p>
+    </div>
+  </div>
+<br>
+    <h2>Pastas</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Lasagna</h3>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRuesoFDLBBD608JRw-ea7WA-zZF_FpjQ5gUtm1CknUgGQgv_ZANbmeRXJJ9da7" alt="espresso">
+        <p>Rs. 250</p>
+        <p>A layered pasta dish originating from Italy, typically made with pasta sheets, tomato sauce, béchamel sauce, and various cheeses</p>
+      </div>
+      <div class="menu-item">
+        <h3>Mac and Cheese</h3>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRMjggTT4j42RUE4EGkCoKu0PSBpuozJC7ZfmO4QuwU8U_jXGVGrBnnNjPG_464  " alt="Cappuccino">
+        <p>Rs. 250</p>
+        <p>CA baked pasta dish made with macaroni noodles and a cheesy sauce, usually cheddar cheese.</p>
+      </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 TiAmo.</p>
+    <ul>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
